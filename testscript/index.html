@@ -1,69 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cdn.videy.co</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fafafa;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-    .card {
-      background-color: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      max-width: 400px;
-      width: 100%;
-      transition: transform 0.3s;
-      margin-bottom: 1rem;
-    }
-    .card:hover {
-      transform: scale(1.02);
-    }
-    h1 {
-      font-size: 1.5rem;
-      color: #333;
-      margin: 1rem 0 3rem 0;
-    }
-    .link-box {
-      background-color: #1c1f26;
-      color: #fff;
-      padding: 0.8rem 1rem;
-      border-radius: 8px;
-      display: inline-block;
-      font-weight: bold;
-      text-decoration: none;
-      transition: background-color 0.3s;
-      word-break: break-word;
-    }
-    .link-box:hover {
-      background-color: #2d2f35;
-    }
-    #ads-wrapper {
-      width: 100%;
-      max-width: 400px;
-      /* Optional styling */
-      min-height: 90px;
-      margin-top: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
+  <style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background-color:#fafafa;display:flex;align-items:center;justify-content:center;height:100vh;padding:20px}.card{background-color:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);text-align:center;max-width:400px;width:100%;transition:transform 0.3s}.card:hover{transform:scale(1.02)}h1{font-size:1.5rem;color:#333;margin:1rem 0 3rem 0}.link-box{background-color:#1c1f26;color:#fff;padding:0.8rem 1rem;border-radius:8px;display:inline-block;font-weight:bold;text-decoration:none;transition:background-color 0.3s;word-break:break-all}.link-box:hover{background-color:#2d2f35}</style>
 </head>
 <body>
   <div class="card">
@@ -71,17 +12,13 @@
     <a href="https://videyhubgalery.github.io/jyvCescK1.mp4" class="link-box">
       https://cdn.videy.co/jyvCescK1.mp4
     </a>
+    <br>
+    <script src="https://cdn.jsdelivr.net/gh/codejsandcss/functions-ads@main/ads.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        loadAds('A');
+      });
+    </script>
   </div>
-
-  <!-- Container untuk iklan -->
-  <div id="ads-wrapper"></div>
-
-  <!-- Panggil ads.js dari jsDelivr -->
-<script src="https://cdn.jsdelivr.net/gh/codejsandcss/functions-ads@main/ads.js"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      loadAds('A'); // Bisa ganti 'B' untuk iklan alternatif
-    });
-  </script>
 </body>
 </html>
